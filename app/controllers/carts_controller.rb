@@ -17,6 +17,9 @@ class CartsController < ApplicationController
     redirect_back fallback_location: root_path
   end
 
+  def empty_cart
+    @msg = "Your Cart Is Empty!"
+  end
   private
 
   def modify_cart_delta(product_id, delta)
