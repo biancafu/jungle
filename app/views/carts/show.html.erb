@@ -5,6 +5,7 @@
   </header>
 
   <div class="panel panel-default items">
+  <% if enhanced_cart.length >= 1 %>
     <table class="table table-bordered">
       <thead>
         <tr>
@@ -45,6 +46,10 @@
           data-email="kvirani@gmail.com"
           data-currency="cad">
         </script>
+      <% end %>
+      <% elsif %>
+      <div class="alert alert-danger" role="alert"><%= @msg %> </div>
+      <%= link_to 'Back to Home Page', root_path , class:'btn btn-primary'%>
       <% end %>
     </div>
   </div>
