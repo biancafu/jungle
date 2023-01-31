@@ -52,56 +52,56 @@ RSpec.describe User, type: :model do
   end
 
 
-  # describe '.authenticate_with_credentials' do
+  describe '.authenticate_with_credentials' do
 
-  #   before do 
-  #     @user = User.create(first_name: "Minnie", last_name: "Mouse", email: "m.mouse@disney.com", password: "mickey", password_confirmation: "mickey")
-  #   end  
+    before do 
+      @user = User.create(name: "Bianca Fu", email: "bb@gmail.com", password: "password", password_confirmation: "password")
+    end  
     
-  #   it "should login if valid email and valid password is correct" do
-  #     email = 'm.mouse@disney.com'
-  #     password = 'mickey'
+    it "should login if email and password is correct" do
+      email = 'bb@gmail.com'
+      password = 'password'
 
-  #     @user2 = User.authenticate_with_credentials(email, password)
+      @user2 = User.authenticate_with_credentials(email, password)
 
-  #     expect(@user2).to eq(@user)
-  #   end
+      expect(@user2).to eq(@user)
+    end
 
-  #   it "should not logging if email is incorrect" do
-  #     email = 'mm.mouse@disney.com'
-  #     password = 'mickey'
+    it "will not login if email is incorrect" do
+      email = 'bb432@gmail.com'
+      password = 'password'
 
-  #     @user2 = User.authenticate_with_credentials(email, password)
+      @user2 = User.authenticate_with_credentials(email, password)
 
-  #     expect(@user2).to_not eq(@user)
-  #   end
+      expect(@user2).to_not eq(@user)
+    end
 
-  #   it "should not logging if password is incorrect" do
-  #     email = 'm.mouse@disney.com'
-  #     password = 'mickeyy'
+    it "will not login if password is incorrect" do
+      email = 'bb@gmail.com'
+      password = 'password1'
 
-  #     @user2 = User.authenticate_with_credentials(email, password)
+      @user2 = User.authenticate_with_credentials(email, password)
 
-  #     expect(@user2).to_not eq(@user)
-  #   end
+      expect(@user2).to_not eq(@user)
+    end
 
-  #   it "should login if there email has spaces" do
-  #     email = ' m.mouse@disney.com  '
-  #     password = 'mickey'
+    it "should login even if email has spaces in front or after" do
+      email = ' bb@gmail.com '
+      password = 'password'
 
-  #     @user2 = User.authenticate_with_credentials(email, password)
+      @user2 = User.authenticate_with_credentials(email, password)
 
-  #     expect(@user2).to eq(@user)
-  #   end
+      expect(@user2).to eq(@user)
+    end
 
-  #   it "should login if email is typed in different cases" do
-  #     email = 'M.mouse@DisNey.cOm'
-  #     password = 'mickey'
+    it "should be case-insensitive for email" do
+      email = 'Bb@gmail.com'
+      password = 'password'
 
-  #     @user2 = User.authenticate_with_credentials(email, password)
+      @user2 = User.authenticate_with_credentials(email, password)
 
-  #     expect(@user2).to eq(@user)
-  #   end
+      expect(@user2).to eq(@user)
+    end
 
-  # end
+  end
 end
