@@ -21,6 +21,22 @@ describe('Product test', () => {
 
   });
 
+  it("Able to view detail page and add product to cart", () => {
+    cy.contains("Scented Blade")
+      .first()
+      .click();
+
+    cy.get(".main-img");
+
+    cy.contains("My Cart (0)");
+
+    cy.contains("Add")
+      .click();
+    
+    cy.contains("My Cart (0)").should("not.exist");
+    cy.contains("My Cart (1)").should("exist");
+
+  });
 
 
   
