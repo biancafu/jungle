@@ -35,11 +35,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots 
 
-Home Page": !["Home Page"](https://github.com/biancafu/jungle/blob/master/docs/home_page1.png) <br>
-Home Page Product Section": !["Home Page Product"](https://github.com/biancafu/jungle/blob/master/docs/home_page2.png) <br>
-Product Details Page: !["Product Details"](https://github.com/biancafu/jungle/blob/master/docs/product_detail_page.png) <br>
-Cart Details Page: !["Cart Details"](https://github.com/biancafu/jungle/blob/master/docs/cart_details.png) <br>
-Credential Form For Purchase: !["Credential"](https://github.com/biancafu/jungle/blob/master/docs/credential.png) <br>
-Order Summary: !["Order Summary"](https://github.com/biancafu/jungle/blob/master/docs/order_summary.png) <br>
-Sign Up Page: !["Sign Up"](https://github.com/biancafu/jungle/blob/master/docs/sign_up.png) <br>
-Log in Page: !["Login"](https://github.com/biancafu/jungle/blob/master/docs/login.png) <br>
+Home Page: !["Home Page"](https://github.com/biancafu/jungle/blob/master/docs/home_page1.png) <br><br>
+Home Page Product Section: !["Home Page Product"](https://github.com/biancafu/jungle/blob/master/docs/home_page2.png) <br><br>
+Product Details Page: !["Product Details"](https://github.com/biancafu/jungle/blob/master/docs/product_detail_page.png) <br><br>
+Cart Details Page: !["Cart Details"](https://github.com/biancafu/jungle/blob/master/docs/cart_details.png) <br><br>
+Credential Form For Purchase: !["Credential"](https://github.com/biancafu/jungle/blob/master/docs/credential.png) <br><br>
+Order Summary: !["Order Summary"](https://github.com/biancafu/jungle/blob/master/docs/order_summary.png) <br><br>
+Sign Up Page: !["Sign Up"](https://github.com/biancafu/jungle/blob/master/docs/sign_up.png) <br><br>
+Log in Page: !["Login"](https://github.com/biancafu/jungle/blob/master/docs/login.png) <br><br>
