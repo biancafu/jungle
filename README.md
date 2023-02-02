@@ -1,6 +1,8 @@
 # Jungle
 
-A mini e-commerce application built with Rails 6.1 for purposes of teaching Rails by example.
+Jungle is a mini e-commerce application built with Rails and Ruby on Rails. 
+Jungle enables a user to browse the options that are available in the store whereby they can add and remove items into a cart. 
+Users are be able to create account or login at anytime. 
 
 ## Setup
 
@@ -29,3 +31,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+- Cypress
+
+## Screenshots 
+
+Initial display": !["Initial display"](https://github.com/biancafu/scheduler/blob/master/docs/appointment-show.png) <br>
+Hover on an appointment, edit/delete button shows up: !["Hover on an appointment, edit/delete button shows up"](https://github.com/biancafu/scheduler/blob/master/docs/appointment-edit%26delete_button.png) <br>
+Add/Edit an appointment: !["Add/Edit an appointment"](https://github.com/biancafu/scheduler/blob/master/docs/appointment-form%20(add%26edit).png)
