@@ -35,6 +35,11 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 ## Screenshots 
 
-Initial display": !["Initial display"](https://github.com/biancafu/scheduler/blob/master/docs/appointment-show.png) <br>
-Hover on an appointment, edit/delete button shows up: !["Hover on an appointment, edit/delete button shows up"](https://github.com/biancafu/scheduler/blob/master/docs/appointment-edit%26delete_button.png) <br>
-Add/Edit an appointment: !["Add/Edit an appointment"](https://github.com/biancafu/scheduler/blob/master/docs/appointment-form%20(add%26edit).png)
+Home Page": !["Home Page"](https://github.com/biancafu/jungle/blob/master/docs/home_page1.png) <br>
+Home Page Product Section": !["Home Page Product"](https://github.com/biancafu/jungle/blob/master/docs/home_page2.png) <br>
+Product Details Page: !["Product Details"](https://github.com/biancafu/jungle/blob/master/docs/product_detail_page.png) <br>
+Cart Details Page: !["Cart Details"](https://github.com/biancafu/jungle/blob/master/docs/cart_details.png) <br>
+Credential Form For Purchase: !["Credential"](https://github.com/biancafu/jungle/blob/master/docs/credential.png) <br>
+Order Summary: !["Order Summary"](https://github.com/biancafu/jungle/blob/master/docs/order_summary.png) <br>
+Sign Up Page: !["Sign Up"](https://github.com/biancafu/jungle/blob/master/docs/sign_up.png) <br>
+Log in Page: !["Login"](https://github.com/biancafu/jungle/blob/master/docs/login.png) <br>
